@@ -51,7 +51,7 @@ func main() {
 	}
 
 	content := string(bytes) //Converts the bytes received to a string using the string function
-  text, err := html2text.FromString(content, html2text.Options{PrettyTables: true})
+  text, err := html2text.FromString(content, html2text.Options{PrettyTables: false})
 	if err != nil {
 		panic(err)
 	}
