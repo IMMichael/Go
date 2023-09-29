@@ -45,9 +45,8 @@ func main() {
   // TODO: ToUpper ToLower
   s1 := strings.ToUpper(s)
   s2 := strings.ToLower(s)
-  s3 := strings.Title(s)
+  s3 := strings.(s)
   fmt.Println(s1)
   fmt.Println(s2)
-  fmt.Println(s3)
 
 }
