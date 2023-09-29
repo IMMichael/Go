@@ -18,10 +18,10 @@ func main() {
   topic := flag.Arg(1)
 
   if lang == "?" || lang == "help" {
-    fmt.Println("Syntax is:")
-    fmt.Println("cht arg1 arg2")
-    fmt.Println("arg1 = Language or tool")
-    fmt.Println("arg2 = Language only - Language topic")
+    fmt.Println("Syntax is: 'cht Name [Topic]'")
+    fmt.Println("Name = Language or tool")
+    fmt.Println("Topic = [Optional] Language only - Language topic")
+    fmt.Printf("\nExamples:\n'cht go slices' - If you want to learn about slices in Go.\n'cht tmux' - If you want to learn about the wonder which is tmux.")
     os.Exit(0)
   }
 
